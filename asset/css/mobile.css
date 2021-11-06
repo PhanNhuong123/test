@@ -1,0 +1,35 @@
+.col-sm{
+    width: 100%;
+}
+.container--title{
+    margin-left: 18%;
+    width: 60%;
+}
+.nav-bar--item{
+    padding: 4px 9px;
+}
+.conten{
+    font-size: 16px;
+}
+.conten h1 {
+    font-size: 44px;
+}
+.footer--items{
+    flex-wrap: wrap;
+   
+}
+.footer--item{
+    margin-bottom: 20px;
+}
+.footer--item:nth-child(2){
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 12px 0;
+}
+.footer--img-map{
+    margin-top: 12px;
+}
+.footer--items .footer--item h4{
+    margin-left: 5%;
+}

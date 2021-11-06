@@ -1,0 +1,43 @@
+
+
+html{
+
+}
+
+header {
+    position: relative;
+}
+.container--header{
+   margin: 0px 8.3% 12px;
+   
+    position: absolute;
+    background-color: white ;
+   
+  
+}
+.container:hover > .container--header{
+    margin: -80px 8.3% 12px;
+    box-shadow: 10px 10px 5px rgba( 0, 0, 0,0.3) ;
+    transition: ease-in 0.5s;
+}
+.header--title{
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 18px;
+   
+  
+}
+@keyframes background-red {
+    from{ background-color: white;}
+    to{ background-color: red;}
+}
+@-webkit-keyframes background-red {
+    from{ background-color: white;}
+    to{ background-color: red;}
+}
+.header--title:hover {
+    color:gold;
+    animation: background-red 2s ;
+    background-color: red;
+    transition: step-end 0.5s;
+}

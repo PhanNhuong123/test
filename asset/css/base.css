@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.clear{
+    clear: both !important;
+}
+.background-color{
+    background-color: white !important;
+    
+}
+
+.display-flex{
+    display:flex !important;
+}
+
+.row{
+    width: 100%;
+}
+.col-12{
+    width: 100%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-3{
+    width: 25%;
+}
+.col-6{
+    width: 50%;
+}
+.col-50percen{
+    width: 50%;
+}
+/* banner */
+.banner{
+    position: relative;
+   
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+
+
+}
+
+.banner h3{
+    font-family: 'Ceviche One', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 24px;
+    left: 80px;
+    color: #FC4942;
+    cursor:default;
+  
+  
+}
+.banner img {
+    width: 100%;
+}
